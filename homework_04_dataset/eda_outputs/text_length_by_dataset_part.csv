@@ -1,0 +1,5 @@
+dataset_part,rows,char_mean,char_median,char_min,char_max,char_p25,char_p75,word_mean,word_median,word_min,word_max,word_p25,word_p75
+natural_sample,500,451.844,436.5,63,1125,331.5,546.25,58.764,57.0,8,138,43.0,70.0
+risk_enriched_sample,300,483.0,471.5,87,996,354.0,601.0,63.583333333333336,61.5,12,143,48.0,78.0
+targeted_risk_from_runews,27,409.81481481481484,403.0,114,747,325.5,534.0,53.77777777777778,53.0,16,90,39.0,69.5
+targeted_risk_sample,8,587.25,655.0,256,748,561.5,655.0,71.25,75.0,32,100,71.5,75.5
