@@ -1,245 +1,173 @@
-# ДЗ №4. Датасет для решения задачи
+# ДЗ №4. Датасет для ML-задачи мониторинга банковских рисков
 
-## 1. Источник и состав данных
+## Цель
 
-Источник данных — Hugging Face dataset `IlyaGusev/ru_news`. Датасет читается потоково через `datasets streaming=True`; полный RuNews не скачивается в проект и не коммитится в Git.
+Подготовить датасет для обучения модели, которая выделяет из новостного потока банковские риск-сигналы.
 
-Используются поля `title`, `text`, `timestamp`, `url`, `source`. Единица наблюдения — один фрагмент новости вокруг одного найденного банка.
-
-## 2. Алгоритм формирования выборки
-
-Выборка формировалась из потока новостей: сначала выполнялся поиск банков по словарю алиасов, затем неоднозначные алиасы фильтровались по банковскому контексту. Для каждой найденной пары `новость + банк` выделялся фрагмент вокруг упоминания, после чего удалялись дубли по `url + entity_norm + text_fragment`.
-
-Финальный датасет собран из основной выборки банковских упоминаний и дополнительного добора риск-кандидатов. Колонка `dataset_part` используется как технический признак происхождения строки и помогает контролировать качество выборки, но не является целевой переменной для обучения.
-
-Все финальные метки проверялись вручную. Автоматическая разметка использовалась только как предразметка.
-
-## 3. Состав финального датасета
-
-Финальный датасет:
+Основная ML-задача:
 
 ```text
-data/processed/news_risk_dataset_labeled.csv
+title + text_fragment + entity_norm -> alert_flag
 ```
 
-Всего строк: `835`.
+`alert_flag = 1` означает, что фрагмент стоит показать специалисту как риск-сигнал. `alert_flag = 0` означает, что банковское упоминание не требует риск-карточки.
 
-Датасет включает основную выборку банковских упоминаний и дополнительный добор риск-кандидатов. Техническая колонка `dataset_part` оставлена для контроля происхождения строк.
+## Источник данных
 
-Финальные колонки:
+Исходная база — RuNews / `IlyaGusev/ru_news`. Использовались русскоязычные новости. Единица наблюдения — текстовый фрагмент вокруг упоминания банка. Одна новость может дать несколько строк, если в ней упоминаются разные банки.
+
+## Финальный датасет
+
+Основной файл:
 
 ```text
-sample_id
-dataset_part
-source
-url
-published_at
-published_year
-published_month
-title
-text_fragment
-entity_mention
-entity_norm
-risk_type_candidate
-found_risk_keywords
-risk_type
-entity_relevance
-alert_flag
-alert_reason
-label_quality
-risk_score_v1
-split
-review_status
-review_comment
+homework_04_dataset/data/dataset_for_training.csv
 ```
 
-Suggested-поля не входят в финальный датасет: в нем оставлены только проверенные поля разметки и аналитические поля.
+Размер: 839 строк.
 
-## 4. Схема разметки
+Ключевые колонки:
 
-- `entity_norm` — нормализованное название найденного банка.
-- `entity_relevance` — связь риска с найденным банком: `direct`, `indirect`, `mentioned_only`, `unclear`.
-- `risk_type` — финальный тип риска.
-- `alert_flag` — нужно ли показывать карточку специалисту.
-- `alert_reason` — короткое объяснение причины алерта.
-- `label_quality` — качество разметки: `ok`, `ambiguous`, `need_review`.
-- `risk_score_v1` — объяснимый скор риска от 0 до 100.
+- `sample_id` — технический ID строки;
+- `event_group_id` — группа одного или близкого инфоповода;
+- `split` — train/valid/test;
+- `title`, `text_fragment`, `entity_norm` — основные признаки для baseline;
+- `source`, `published_year`, `published_month` — контекстные признаки, использовать осторожно;
+- `alert_flag` — основной target;
+- `risk_type_4cls` — дополнительная 4-классовая разметка.
 
-`risk_score_v1` не размечается вручную, а рассчитывается по формуле: вес типа риска + вес релевантности банка + вес алерта, максимум 100.
+Классы `risk_type_4cls`:
 
-## 5. Базовый EDA и выводы для моделирования
+- `no_risk`;
+- `cyber_risk`;
+- `operational_risk`;
+- `regulatory_risk`.
 
-Распределение `risk_type`:
+## Основной EDA
 
-- `no_risk`: 729
-- `sanctions`: 60
-- `fraud_phishing`: 15
-- `legal_regulatory`: 12
-- `operational_issue`: 9
-- `data_leak_security`: 7
-- `other_risk`: 3
+Главный аналитический отчёт находится в ноутбуке:
+
+```text
+homework_04_dataset/notebooks/04_dataset_eda_and_validation.ipynb
+```
+
+В ноутбуке собраны код, таблицы, графики и текстовые выводы по каждому ключевому блоку: структура датасета, пропуски, дубликаты, распределения target, текстовые характеристики, источники, годы, качество разметки, split и leakage-анализ.
+
+## Краткие EDA-выводы
 
 Распределение `alert_flag`:
 
-- `0`: 757
-- `1`: 78
+- `0`: 585;
+- `1`: 254.
 
-Основные банки: ВТБ, Сбербанк, Газпромбанк, Альфа-Банк, Россельхозбанк. Основные источники: `buriy`, `ods_tass`, `lenta`, `taiga_fontanka`, `telegram_contest`. Диапазон годов: 2003-2020.
+Положительный класс встречается реже отрицательного, поэтому accuracy не должна быть основной метрикой. Для оценки модели нужны precision, recall, F1 и PR-AUC.
 
-Выводы: большинство строк относятся к `no_risk`, а `alert_flag = 1` встречается редко. Это подтверждает наличие информационного шума в банковских упоминаниях. Для обучения бинарной модели нужен balanced train. `risk_type` можно использовать как multi-class задачу, но качество по редким классам будет ограничено малым числом примеров.
+Распределение `risk_type_4cls`:
 
-Сильный дисбаланс `risk_type` является ожидаемым: `no_risk` доминирует, потому что большинство банковских упоминаний не является риск-инфоповодом. Это не делает датасет непригодным: для текущего этапа основной задачей первой модели является бинарная классификация `alert_flag`, то есть определение, нужно ли показывать карточку специалисту.
+- `no_risk`: 585;
+- `cyber_risk`: 111;
+- `operational_risk`: 97;
+- `regulatory_risk`: 46.
 
-Для обучения `alert_flag` создается отдельный balanced train, при этом `valid` и `test` остаются ближе к исходному распределению. `risk_type` сохраняется как дополнительная разметка для анализа ошибок и будущего расширения проекта. Полноценное обучение multi-class модели по `risk_type` возможно в следующей итерации после накопления большего числа примеров по редким классам.
+Датасет подходит для бинарного baseline. Multi-class задача возможна как дополнительный эксперимент, но классы риска меньше, поэтому метрики по ним нужно интерпретировать осторожно.
 
-Основные EDA-графики для отчета:
+## Качество разметки
 
-- `homework_04_dataset/eda_outputs/alert_flag_distribution.png`
-- `homework_04_dataset/eda_outputs/risk_type_distribution_full.png`
-- `homework_04_dataset/eda_outputs/risk_type_distribution_without_no_risk.png`
-- `homework_04_dataset/eda_outputs/entity_relevance_distribution.png`
-- `homework_04_dataset/eda_outputs/text_fragment_length_hist.png`
-- `homework_04_dataset/eda_outputs/risk_keyword_distribution_top30.png`
+Разметка проверяется логическими правилами:
 
-Дополнительные технические проверки:
+- `risk_type_4cls = no_risk` должен соответствовать `alert_flag = 0`;
+- риск-классы должны соответствовать `alert_flag = 1`;
+- риск должен относиться к найденному банку, а не просто встречаться рядом с ним.
 
-- `homework_04_dataset/eda_outputs/dataset_part_distribution.png`
-- `homework_04_dataset/eda_outputs/dataset_part_vs_alert_flag.png`
-- `homework_04_dataset/eda_outputs/risk_type_distribution_log_scale.png`
-
-### Текстовые характеристики
-
-Дополнительно анализируются:
-
-- длина заголовков;
-- длина текстовых фрагментов;
-- количество слов;
-- частота риск-слов;
-- топ слов для риск- и нериск-фрагментов.
-
-Текстовый EDA нужен, чтобы проверить пригодность фрагментов для baseline-моделей `TF-IDF + Logistic Regression` / `LinearSVC` и понять, какие слова чаще всего формируют риск-сигналы.
-
-## 6. Качество разметки
-
-Сначала использовалась rule-based / assisted предразметка. Suggested-поля не входят в финальный датасет. Финальные поля проверялись вручную.
-
-Основные ошибки предразметки:
-
-- банк был кредитором, комментатором или участником общего контекста;
-- риск относился не к банку;
-- ключевые слова вроде "иск", "санкции", "сбой" давали ложные срабатывания.
-
-Для улучшения качества был добавлен targeted-добор редких классов. Спорные строки отмечались через `label_quality = ambiguous / need_review`.
-
-## 7. Стратегия валидации
-
-Используется разбиение `train / valid / test = 70 / 15 / 15`. При разбиении учитывается группировка по `url`: одна и та же новость не должна попадать одновременно в обучение и проверку. Это снижает риск утечки информации между train и test.
-
-Финальный датасет не балансировался искусственно, потому что он должен отражать реальную структуру банковского новостного потока: большинство упоминаний банка не являются прямыми риск-инфоповодами. Это важно для проверки способности модели отделять риск-карточки от информационного шума.
-
-В результате подготовки данных создаются четыре modeling-файла:
+Подробные проверки приведены в notebook и кратком отчёте:
 
 ```text
-data/processed/modeling/news_risk_full_train.csv
-data/processed/modeling/news_risk_full_valid.csv
-data/processed/modeling/news_risk_full_test.csv
-data/processed/modeling/news_risk_train_balanced_alert.csv
+homework_04_dataset/reports/dataset_quality_summary.md
 ```
 
-`news_risk_full_train.csv`, `news_risk_full_valid.csv` и `news_risk_full_test.csv` сохраняют исходное распределение классов. `valid` и `test` не балансируются искусственно, чтобы оценка качества была ближе к реальному продуктовому сценарию, где риск-инфоповоды встречаются редко.
+## Train/valid/test split
 
-Отдельный файл `news_risk_train_balanced_alert.csv` используется только для обучения первой бинарной baseline-модели по `alert_flag`. Он строится только на train-части: берутся все положительные примеры `alert_flag = 1` и случайная подвыборка отрицательных примеров `alert_flag = 0` с коэффициентом `negative_ratio = 2`.
+Split построен как group-aware split по `event_group_id`. Это нужно, чтобы один и тот же или близкий инфоповод не попадал одновременно в train и valid/test.
 
-Таким образом:
+Распределение:
 
-- полный датасет и EDA показывают реальную структуру данных;
-- `valid` и `test` остаются честными и несбалансированными;
-- балансировка применяется только к обучающей части, чтобы модель не выучила тривиальное правило «почти всегда ставить `alert_flag = 0`».
+- `train`: 587;
+- `valid`: 126;
+- `test`: 126.
 
-Для `risk_type` полноценная оценка по редким классам ограничена: классы `operational_issue`, `data_leak_security` и `other_risk` представлены малым числом примеров. Поэтому `risk_type` используется как дополнительная метка и направление для следующей итерации расширения датасета.
+Valid/test не балансируются искусственно, чтобы оценка была ближе к реальному распределению новостного потока.
 
-## 8. Как планируется обучать модель
+## Exact duplicates и near-duplicates
 
-Основная baseline-задача первой модели:
+В notebook проверяются:
+
+- точные дубли по `sample_id`;
+- точные дубли по `text_fragment`;
+- точные дубли по `title + text_fragment + entity_norm`;
+- near-duplicates между split через TF-IDF cosine similarity.
+
+`event_group_id` используется для снижения риска leakage. Если near-duplicates всё ещё находятся между split, это фиксируется как ограничение и рекомендация для следующей итерации: строить более строгий `event_cluster_id`.
+
+## Leakage-анализ
+
+Для первой честной binary-модели не использовать как признаки:
+
+- `sample_id`;
+- `event_group_id`;
+- `split`;
+- `alert_flag`;
+- `risk_type_4cls`;
+- `found_risk_keywords`.
+
+Рекомендуемые признаки для baseline:
 
 ```text
-text_fragment + entity_norm -> alert_flag
+title + text_fragment + entity_norm
 ```
 
-То есть модель должна определить, нужно ли показывать фрагмент новости специалисту как риск-карточку. Это напрямую связано с продуктовой задачей: сократить ручной просмотр новостного потока и оставить только приоритетные сообщения.
+`source`, `published_year`, `published_month` можно проверять отдельно, но есть риск source bias и temporal drift.
 
-Первая модель: `TF-IDF + Logistic Regression`.
+## Рекомендуемый baseline
 
-### Использование balanced train
-
-Финальный датасет `data/processed/news_risk_dataset_labeled.csv` не балансируется искусственно. Он остаётся полным и используется для EDA, анализа качества разметки и формирования честных `valid` / `test`.
-
-Для обучения бинарной модели по `alert_flag` используется отдельный файл:
+Первая модель:
 
 ```text
-data/processed/modeling/news_risk_train_balanced_alert.csv
+TF-IDF + Logistic Regression
 ```
 
-Он формируется только из train-части. В него попадают:
+или:
 
-- все положительные train-примеры `alert_flag = 1`;
-- случайная подвыборка отрицательных train-примеров `alert_flag = 0`;
-- соотношение отрицательных к положительным задаётся параметром `negative_ratio = 2`.
-
-В текущей версии подготовлены следующие modeling-файлы:
-
-- `news_risk_full_train.csv`;
-- `news_risk_full_valid.csv`;
-- `news_risk_full_test.csv`;
-- `news_risk_train_balanced_alert.csv`.
-
-Такой подход позволяет обучать модель на более информативном train-наборе, но оценивать её на несбалансированных `valid` и `test`, которые ближе к реальному потоку.
-
-Дополнительно планируется сравнить:
-
-- rule-based baseline;
-- `TF-IDF + Logistic Regression`;
-- `TF-IDF + LinearSVC`;
-- `risk_type` как вспомогательную multi-class задачу.
-
-`risk_score_v1` не предсказывается напрямую моделью. Он рассчитывается по объяснимой формуле на основе `risk_type`, `entity_relevance` и `alert_flag`.
-
-Метрики:
-
-- для `alert_flag`: Precision, Recall, F1, PR-AUC, confusion matrix;
-- для top-K карточек: Precision@K;
-- для `risk_type`: macro F1 только как ориентир, с оговоркой о редких классах.
-
-## 9. Ограничения
-
-- Датасет учебный.
-- RuNews не равен промышленному медиамониторингу.
-- Классы несбалансированы.
-- Редкие классы недопредставлены.
-- Разметка частично субъективна.
-- Нет валидации вторым разметчиком.
-
-## 10. Состав файлов для сдачи
-
-- `data/processed/news_risk_dataset_labeled.csv`
-- `data/processed/modeling/`
-- `notebooks/04_data_understanding_eda.ipynb`
-- `homework_04_dataset/annotation_guideline.md`
-- `homework_04_dataset/eda_outputs/`
-- `src/data/`
-- `src/features/`
-- `src/reports/`
-
-## Команды
-
-Построение EDA:
-
-```bash
-python -m src.reports.build_eda_outputs --input data/processed/news_risk_dataset_labeled.csv --output-dir homework_04_dataset/eda_outputs
+```text
+TF-IDF + LinearSVC
 ```
 
-Подготовка файлов для обучения:
+Для дисбаланса использовать `class_weight='balanced'`. Основные метрики: precision, recall, F1, PR-AUC, confusion matrix. Для продуктового сценария дополнительно полезен Precision@K.
 
-```bash
-python -m src.data.build_training_splits --input data/processed/news_risk_dataset_labeled.csv --output-dir data/processed/modeling --negative-ratio 2 --seed 42
+Вторая возможная задача — многоклассовая классификация:
+
+```text
+title + text_fragment + entity_norm -> risk_type_4cls
+```
+
+Её можно обучать как дополнительный эксперимент, чтобы модель не только находила риск-сигнал, но и относила его к одному из классов: `no_risk`, `cyber_risk`, `operational_risk`, `regulatory_risk`. Для этой задачи основная метрика — macro F1, потому что классы риска меньше и важна устойчивость качества по каждому классу.
+
+Важно: для бинарной модели `risk_type_4cls` нельзя использовать как feature, но для отдельной multi-class модели это допустимый target.
+
+## Ограничения
+
+- Датасет учебный и небольшой.
+- Источник — исторический RuNews, а не промышленный медиамониторинг.
+- Есть временной сдвиг: новости покрывают 2002-2020 годы.
+- Источников немного, поэтому возможен source bias.
+- Near-duplicate grouping снижает риск leakage, но не гарантирует идеальное объединение всех семантически близких инфоповодов.
+- Для промышленной версии нужна проверка вторым разметчиком и свежий holdout.
+
+## Состав файлов
+
+```text
+homework_04_dataset/README.md
+homework_04_dataset/annotation_guideline.md
+homework_04_dataset/notebooks/04_dataset_eda_and_validation.ipynb
+homework_04_dataset/data/dataset_for_training.csv
+homework_04_dataset/reports/dataset_quality_summary.md
 ```

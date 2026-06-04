@@ -1,3 +1,0 @@
-column,char_mean,char_median,char_min,char_max,char_p25,char_p75,word_mean,word_median,word_min,word_max,word_p25,word_p75
-title,62.85389221556886,63.0,0,134,52.0,74.0,8.640718562874252,9.0,0,17,7.0,10.0
-text_fragment,462.9760479041916,447.0,63,1125,343.5,564.5,60.453892215568864,58.0,8,143,45.0,75.0

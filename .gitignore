@@ -204,9 +204,8 @@ cython_debug/
 tempCodeRunnerFile.py
 
 # Homework 04 data policy
-data/raw/*
-data/interim/*
-data/processed/archive/*
+.claude/
+/data/
 *.parquet
 *.jsonl
 *.zst
@@ -214,13 +213,8 @@ data/processed/archive/*
 __pycache__/
 .ipynb_checkpoints/
 
-!data/processed/
-!data/processed/annotation_template.csv
-!data/processed/news_risk_dataset_labeled.csv
-!data/processed/modeling/
-!data/processed/modeling/**
-!homework_04_dataset/eda_outputs/
-!homework_04_dataset/eda_outputs/**
+homework_04_dataset/eda_outputs/
+homework_03_benchmark/homework_03_FINAL.xlsx
 
 # Ruff stuff:
 .ruff_cache/
