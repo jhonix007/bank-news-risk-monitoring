@@ -215,6 +215,11 @@ __pycache__/
 
 homework_04_dataset/eda_outputs/
 homework_03_benchmark/homework_03_FINAL.xlsx
+homework_05_06_modeling/models/
+homework_05_06_modeling/_tmp_hf_rubert/
+homework_05_06_modeling/_tmp_hf_*/
+catboost_info/
+.jupyter_runtime/
 
 # Ruff stuff:
 .ruff_cache/
