@@ -1,0 +1,2 @@
+model_version,alpha,C,accuracy,precision,recall,f1,tp,fp,fn,tn,roc_auc,pr_auc
+TEST LLM-distilled student v2b + threshold 0.50,,,0.8888888888888888,0.7727272727272727,0.8947368421052632,0.8292682926829268,34,10,4,78,0.9688995215311005,0.9360734317764023

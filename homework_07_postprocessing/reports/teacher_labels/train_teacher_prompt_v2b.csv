@@ -1,0 +1,2349 @@
+sample_id,teacher_label,teacher_confidence,teacher_response_raw,teacher_prompt_version
+ml_000001,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000003,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000005,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000007,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000008,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000009,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000011,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000012,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000013,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000015,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000016,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000017,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000019,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000020,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000021,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000022,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000023,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000024,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000025,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000026,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000030,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000031,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000034,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000036,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000038,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000039,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000040,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000041,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000043,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000044,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000046,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000047,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000048,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000049,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000050,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000051,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000053,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000054,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000055,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000057,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000058,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000059,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000060,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000061,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000063,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000064,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000066,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000067,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000068,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000069,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000070,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000071,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000072,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000073,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000074,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000075,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000077,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000079,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000080,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000082,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000083,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000084,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000085,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000086,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000088,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000089,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000090,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000092,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000093,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000094,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000096,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000098,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000099,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000100,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000101,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000102,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000103,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000104,0,0.1,"{
+  ""label"": 0,
+  ""confidence"": 0.1
+}",teacher_prompt_v2b
+ml_000105,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000106,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000107,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000108,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000109,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000110,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000111,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000113,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000114,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000117,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000118,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000120,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000121,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000123,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000124,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000125,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000128,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000130,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000132,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000133,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000134,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000135,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000137,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000138,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000139,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000140,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000141,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000142,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000144,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000145,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000146,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000148,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000150,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000153,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000155,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000156,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000157,1,0.85,"{
+  ""label"": 1,
+  ""confidence"": 0.85
+}",teacher_prompt_v2b
+ml_000158,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000159,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000160,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000161,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000162,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000163,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000164,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000165,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000166,1,0.85,"{
+  ""label"": 1,
+  ""confidence"": 0.85
+}",teacher_prompt_v2b
+ml_000167,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000168,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000169,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000170,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000173,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000174,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000177,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000181,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000182,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000183,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000184,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000185,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000186,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000187,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000189,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000190,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000192,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000194,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000195,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000196,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000200,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000201,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000203,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000204,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000205,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000206,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000208,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000209,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000210,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000211,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000212,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000213,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000215,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000216,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000217,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000219,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000220,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000221,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000223,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000224,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000225,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000226,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000228,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000229,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000230,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000231,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000233,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000234,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000235,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000236,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000238,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000240,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000241,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000243,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000244,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000245,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000247,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000248,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000250,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000251,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000253,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000255,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000256,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000258,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000259,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000262,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000263,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000264,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000266,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000267,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000268,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000271,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000273,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000274,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000275,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000277,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000279,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000280,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000281,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000282,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000283,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000284,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000285,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000290,0,0.2,"{
+  ""label"": 0,
+  ""confidence"": 0.2
+}",teacher_prompt_v2b
+ml_000292,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000294,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000295,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000296,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000297,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000298,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000299,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000302,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000304,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000307,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000308,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000309,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000313,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000314,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000315,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000316,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000317,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000318,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000319,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000320,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000322,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000324,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000325,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000326,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000327,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000328,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000329,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000330,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000332,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000333,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000334,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000335,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000336,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000338,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000339,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000340,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000342,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000343,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000344,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000345,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000346,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000350,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000351,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000352,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000355,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000358,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000359,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000360,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000361,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000362,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000363,0,0.2,"{
+  ""label"": 0,
+  ""confidence"": 0.2
+}",teacher_prompt_v2b
+ml_000364,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000366,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000367,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000369,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000370,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000372,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000374,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000375,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000376,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000378,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000379,1,0.85,"{
+  ""label"": 1,
+  ""confidence"": 0.85
+}",teacher_prompt_v2b
+ml_000380,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000381,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000382,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000383,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000385,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000386,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000387,1,0.85,"{
+  ""label"": 1,
+  ""confidence"": 0.85
+}",teacher_prompt_v2b
+ml_000388,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000389,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000392,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000393,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000396,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000397,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000399,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000400,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000401,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000402,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000404,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000407,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000408,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000409,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000410,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000411,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000412,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000413,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000414,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000415,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000416,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000417,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000420,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000421,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000422,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000423,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000424,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000425,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000426,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000429,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000430,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000431,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000432,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000434,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000435,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000436,0,0.2,"{
+  ""label"": 0,
+  ""confidence"": 0.2
+}",teacher_prompt_v2b
+ml_000437,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000438,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000440,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000442,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000443,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000444,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000445,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000446,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000448,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000449,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000450,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000451,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000452,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000453,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000454,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000455,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000456,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000458,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000459,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000461,1,0.85,"{
+  ""label"": 1,
+  ""confidence"": 0.85
+}",teacher_prompt_v2b
+ml_000462,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000463,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000464,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000465,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000467,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000469,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000471,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000472,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000473,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000475,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000476,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000479,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000480,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000482,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000483,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000485,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000487,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000488,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000489,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000490,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000492,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000493,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000494,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000495,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000496,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000497,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000498,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000499,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000500,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000502,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000503,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000504,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000505,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000507,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000508,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000509,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000510,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000513,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000515,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000518,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000519,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000520,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000523,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000527,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000529,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000530,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000532,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000533,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000534,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000535,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000536,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000537,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000538,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000539,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000541,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000543,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000544,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000545,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000546,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000547,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000549,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000551,1,0.85,"{
+  ""label"": 1,
+  ""confidence"": 0.85
+}",teacher_prompt_v2b
+ml_000552,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000554,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000555,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000556,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000558,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000559,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000564,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000565,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000566,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000567,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000568,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000573,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000574,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000575,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000576,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000577,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000578,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000579,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000580,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000581,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000582,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000584,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000587,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000589,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000591,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000593,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000595,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000596,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000597,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000598,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000599,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000601,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000602,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000603,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000604,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000605,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000606,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000610,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000611,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000612,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000613,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000617,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000618,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000620,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000621,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000622,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000623,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000624,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000626,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000627,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000628,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000629,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000630,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000633,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000635,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000636,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000637,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000641,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000642,1,0.85,"{
+  ""label"": 1,
+  ""confidence"": 0.85
+}",teacher_prompt_v2b
+ml_000645,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000646,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000647,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000648,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000651,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000655,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000656,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000661,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000662,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000663,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000665,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000666,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000667,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000668,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000670,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000672,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000674,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000675,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000676,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000677,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000678,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000680,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000681,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000682,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000683,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000684,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000685,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000686,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000687,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000690,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000692,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000693,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000694,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000695,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000696,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000697,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000698,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000700,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000701,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000703,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000705,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000706,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000707,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000710,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000711,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000713,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000714,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000715,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000717,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000718,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000719,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000726,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000727,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000728,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000729,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000730,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000736,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000737,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000738,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000740,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000743,0,0.1,"{
+  ""label"": 0,
+  ""confidence"": 0.1
+}",teacher_prompt_v2b
+ml_000744,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000746,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000747,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000749,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000750,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000753,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000756,1,0.7,"{
+  ""label"": 1,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000757,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000758,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000759,0,0.9,"{
+  ""label"": 0,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000760,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000761,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000762,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000763,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000765,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000766,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000767,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000768,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000770,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000771,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000772,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000774,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000775,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000776,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000777,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000778,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000779,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000780,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000781,1,0.85,"{
+  ""label"": 1,
+  ""confidence"": 0.85
+}",teacher_prompt_v2b
+ml_000783,1,0.95,"{
+  ""label"": 1,
+  ""confidence"": 0.95
+}",teacher_prompt_v2b
+ml_000784,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000785,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000787,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000788,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000789,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000790,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000791,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000793,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000794,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000795,1,0.85,"{
+  ""label"": 1,
+  ""confidence"": 0.85
+}",teacher_prompt_v2b
+ml_000796,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000797,1,0.85,"{
+  ""label"": 1,
+  ""confidence"": 0.85
+}",teacher_prompt_v2b
+ml_000798,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000800,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000801,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000802,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000805,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000807,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000808,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000810,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000811,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000812,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000815,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000816,0,0.3,"{
+  ""label"": 0,
+  ""confidence"": 0.3
+}",teacher_prompt_v2b
+ml_000818,0,0.8,"{
+  ""label"": 0,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000819,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000820,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000821,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000822,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000823,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000824,0,0.4,"{
+  ""label"": 0,
+  ""confidence"": 0.4
+}",teacher_prompt_v2b
+ml_000825,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000826,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000827,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000828,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000830,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000831,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000833,0,0.6,"{
+  ""label"": 0,
+  ""confidence"": 0.6
+}",teacher_prompt_v2b
+ml_000835,0,0.7,"{
+  ""label"": 0,
+  ""confidence"": 0.7
+}",teacher_prompt_v2b
+ml_000836,1,0.8,"{
+  ""label"": 1,
+  ""confidence"": 0.8
+}",teacher_prompt_v2b
+ml_000838,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
+ml_000839,1,0.9,"{
+  ""label"": 1,
+  ""confidence"": 0.9
+}",teacher_prompt_v2b
