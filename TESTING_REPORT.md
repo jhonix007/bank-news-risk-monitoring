@@ -46,7 +46,7 @@ python scripts/check_requirements_pinned.py
 Покрытые сценарии:
 
 * пользователь без подписки не может загрузить CSV;
-* пользователь пополняет демо-баланс и покупает подписку;
+* пользователь пополняет баланс и покупает подписку;
 * CSV сохраняется как batch/news_items и получает статус `queued`;
 * inference не запускается синхронно при upload;
 * worker переводит batch в `completed` и сохраняет `prediction_results`;

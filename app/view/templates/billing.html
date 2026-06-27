@@ -10,7 +10,7 @@
   <div class="metric"><span>Дата окончания</span><strong>{{ subscription.ends_at.date() if subscription else "-" }}</strong></div>
 </section>
 <div class="actions">
-  <form method="post" action="/web/billing/top-up"><button class="button light">Пополнить демо-баланс</button></form>
+  <form method="post" action="/web/billing/top-up"><button class="button light">Пополнить баланс</button></form>
   <form method="post" action="/web/subscriptions/buy"><button class="button primary">Купить подписку на 30 дней</button></form>
 </div>
 {% endblock %}

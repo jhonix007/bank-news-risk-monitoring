@@ -31,7 +31,7 @@ def top_up(
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     db.commit()
-    return {"message": "Демо-баланс пополнен.", "balance": user.balance}
+    return {"message": "Баланс пополнен.", "balance": user.balance}
 
 
 @router.get("/billing/balance")
