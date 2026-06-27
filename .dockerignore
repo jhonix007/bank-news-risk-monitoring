@@ -1,0 +1,12 @@
+.git
+.venv
+.venv/
+__pycache__
+*.pyc
+.pytest_cache
+.agents
+.claude
+.jupyter_runtime
+pytest-cache-files-*
+storage/uploads/*
+storage/results/*

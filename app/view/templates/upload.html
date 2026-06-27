@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Загрузка новостей{% endblock %}
+{% block content %}
+<h1>Загрузка новостей</h1>
+<section class="panel">
+  <p>Загрузите CSV-файл со списком банковских новостей.</p>
+  <p><strong>Обязательные колонки внутри CSV:</strong> title, text_fragment</p>
+  <p><strong>Опциональные колонки:</strong> source, url, published_at, entity_norm</p>
+  <p>Если entity_norm не указана, сервис попробует автоматически определить банк по тексту новости.</p>
+</section>
+{% if not has_subscription %}
+  <p class="warning">Для загрузки новостей нужна активная подписка.</p>
+{% endif %}
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+{% if upload_result %}
+  <section class="success">
+    <p><strong>Файл загружен.</strong></p>
+    <p>Сохранено новостей: {{ upload_result.saved_count }}.</p>
+    <p>ID загрузки: {{ upload_result.batch_id }}.</p>
+    <p>Статус: {{ upload_result.status }}.</p>
+    <p><a class="table-link" href="/jobs">Мои загрузки</a> · <a class="table-link" href="/results/{{ upload_result.batch_id }}">Результаты</a></p>
+  </section>
+{% endif %}
+<form class="panel form-card" method="post" action="/upload" enctype="multipart/form-data">
+  <label>CSV-файл<input name="file" type="file" accept=".csv" {% if not has_subscription %}disabled{% endif %} required></label>
+  <button class="button primary" type="submit" {% if not has_subscription %}disabled{% endif %}>Загрузить и обработать</button>
+</form>
+{% endblock %}

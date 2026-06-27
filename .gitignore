@@ -151,6 +151,7 @@ activemq-data/
 .env
 .envrc
 .venv
+.venv/
 env/
 venv/
 ENV/
@@ -205,6 +206,7 @@ tempCodeRunnerFile.py
 
 # Homework 04 data policy
 .claude/
+.agents/
 /data/
 *.parquet
 *.jsonl
@@ -220,6 +222,13 @@ homework_05_06_modeling/_tmp_hf_rubert/
 homework_05_06_modeling/_tmp_hf_*/
 catboost_info/
 .jupyter_runtime/
+pytest-cache-files-*/
+*.pyc
+.env
+storage/uploads/*
+storage/results/*
+!storage/uploads/.gitkeep
+!storage/results/.gitkeep
 
 # Ruff stuff:
 .ruff_cache/
@@ -234,3 +243,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# HW8 local runtime
+/storage/uploads/*
+/storage/results/*
+!/storage/uploads/.gitkeep
+!/storage/results/.gitkeep
+benchmark_worker_800.db*
+
+# Research archive must stay versioned
+!research/**/*.ipynb
+!research/**/*.md
+!research/**/*.csv

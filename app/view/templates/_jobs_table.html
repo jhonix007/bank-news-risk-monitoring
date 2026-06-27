@@ -1,0 +1,25 @@
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th><th>имя файла</th><th>статус</th><th>всего новостей</th><th>обработано новостей</th><th>дата загрузки</th><th>дата обработки</th><th></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for batch in batches %}
+        <tr>
+          <td>{{ batch.id }}</td>
+          <td>{{ batch.original_filename }}</td>
+          <td><span class="status {{ batch.status }}">{{ batch.status }}</span></td>
+          <td>{{ batch.total_items }}</td>
+          <td>{{ batch.processed_items }}</td>
+          <td>{{ batch.created_at.strftime("%Y-%m-%d %H:%M") }}</td>
+          <td>{{ batch.processed_at.strftime("%Y-%m-%d %H:%M") if batch.processed_at else "-" }}</td>
+          <td><a class="table-link" href="/results/{{ batch.id }}">Результаты</a></td>
+        </tr>
+      {% else %}
+        <tr><td colspan="8">Загрузок пока нет.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

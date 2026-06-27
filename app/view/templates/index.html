@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero hero-with-bg">
+  <p class="eyebrow">ML-сервис для риск-мониторинга</p>
+  <h1>Bank News Risk Monitoring</h1>
+  <p class="lead">Сервис для выявления риск-сигналов в банковских новостях.</p>
+  <div class="actions">
+    <a class="button light" href="/login">Войти</a>
+    <a class="button primary" href="/register">Зарегистрироваться</a>
+    <a class="button ghost" href="/dashboard">Перейти в кабинет</a>
+  </div>
+</section>
+<section class="panel">
+  <h2>Как это работает</h2>
+  <ol class="steps">
+    <li>Зарегистрируйтесь и войдите в личный кабинет.</li>
+    <li>Пополните демо-баланс.</li>
+    <li>Купите подписку на сервис.</li>
+    <li>Загрузите CSV-файл со списком банковских новостей.</li>
+    <li>Сервис сохранит новости в базу и обработает их ML-моделью.</li>
+    <li>Получите таблицу риск-сигналов и скачайте результат.</li>
+  </ol>
+</section>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Вход{% endblock %}
+{% block content %}
+<section class="form-page">
+  <form class="panel form-card" method="post" action="/login">
+    <h1>Войти</h1>
+    {% if error %}<p class="error">{{ error }}</p>{% endif %}
+    <label>Email<input name="email" type="email" value="{{ email or '' }}" required></label>
+    <label>Пароль<input name="password" type="password" required></label>
+    <button class="button primary" type="submit">Войти</button>
+  </form>
+</section>
+{% endblock %}

@@ -1,0 +1,5 @@
+dataset_part,count
+natural_sample,500
+risk_enriched_sample,300
+targeted_risk_from_runews,27
+targeted_risk_sample,8

@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block title %}Результаты{% endblock %}
+{% block main_class %}container-wide{% endblock %}
+{% block content %}
+<div class="page-header">
+  <div>
+    <h1>Результаты</h1>
+    <p class="muted">Batch #{{ batch.id }} · статус: {{ batch.status }}</p>
+  </div>
+  <a class="button light" href="/results/{{ batch.id }}/download">Скачать CSV</a>
+</div>
+{% set total_count = rows|length %}
+{% set alert_count = namespace(value=0) %}
+{% for item, pred in rows %}
+  {% if pred.alert_flag == 1 %}
+    {% set alert_count.value = alert_count.value + 1 %}
+  {% endif %}
+{% endfor %}
+<section class="results-summary" aria-label="Сводка результатов">
+  <span>Всего новостей: <strong id="total-count">{{ total_count }}</strong></span>
+  <span>Риск-сигналов: <strong id="alert-count">{{ alert_count.value }}</strong></span>
+  <span>Показано: <strong id="shown-count">{{ total_count }}</strong></span>
+</section>
+<label class="checkbox"><input id="only-alerts" type="checkbox"> Показать только риск-сигналы</label>
+<section class="panel table-wrap">
+  <div class="table-responsive">
+  <table id="results-table" class="results-table">
+    <colgroup>
+      <col class="col-title">
+      <col class="col-entity">
+      <col class="col-fragment">
+      <col class="col-score">
+      <col class="col-flag">
+      <col class="col-model">
+    </colgroup>
+    <thead>
+      <tr>
+        <th class="col-title">Заголовок</th>
+        <th class="col-entity">Банк / сущность</th>
+        <th class="col-fragment">Фрагмент новости</th>
+        <th class="col-score">Риск-скор</th>
+        <th class="col-flag">Метка риска</th>
+        <th class="col-model">Модель</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item, pred in rows %}
+      <tr class="{{ 'alert-row' if pred.alert_flag == 1 else '' }}" data-alert="{{ pred.alert_flag }}">
+        <td>{{ item.title }}</td>
+        <td>{{ item.entity_norm }}</td>
+        <td class="text-cell">
+          <div class="news-fragment">
+            {{ item.text_fragment[:350] }}
+            {% if item.text_fragment|length > 350 %}
+              <details class="fragment-details">
+                <summary>Показать полностью</summary>
+                <div class="fragment-full">{{ item.text_fragment }}</div>
+              </details>
+            {% endif %}
+          </div>
+        </td>
+        <td><span class="score-badge">{{ "%.3f"|format(pred.risk_score) }}</span></td>
+        <td><span class="risk-badge {{ 'badge-risk' if pred.alert_flag == 1 else 'badge-neutral' }}">{{ "Риск" if pred.alert_flag == 1 else "Нет риска" }}</span></td>
+        <td>{{ pred.model_name }}</td>
+      </tr>
+      {% else %}
+        <tr><td colspan="6">Результаты ещё не готовы. Обновите страницу после обработки worker.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  </div>
+</section>
+<script src="/static/js/app.js?v=20260627-results-summary"></script>
+{% endblock %}

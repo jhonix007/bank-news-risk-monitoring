@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Мои загрузки{% endblock %}
+{% block content %}
+<h1>Мои загрузки</h1>
+{% if uploaded %}<p class="success">Файл загружен. Новости сохранены и поставлены в очередь на обработку.</p>{% endif %}
+<section class="panel">
+  {% include "_jobs_table.html" %}
+</section>
+{% endblock %}

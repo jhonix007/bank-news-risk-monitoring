@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Личный кабинет{% endblock %}
+{% block content %}
+<h1>Личный кабинет</h1>
+<section class="metrics">
+  <div class="metric"><span>Email</span><strong>{{ current_user.email }}</strong></div>
+  <div class="metric"><span>Баланс</span><strong>{{ "%.2f"|format(current_user.balance) }}</strong></div>
+  <div class="metric"><span>Подписка</span><strong>{{ "активна" if subscription else "нет" }}</strong></div>
+  <div class="metric"><span>Загружено файлов</span><strong>{{ batch_count }}</strong></div>
+  <div class="metric"><span>Обработано новостей</span><strong>{{ processed_news }}</strong></div>
+</section>
+<div class="actions">
+  <a class="button light" href="/billing">Пополнить баланс</a>
+  <a class="button light" href="/billing">Купить подписку</a>
+  <a class="button primary" href="/upload">Загрузить новости</a>
+  <a class="button ghost" href="/jobs">Мои загрузки</a>
+</div>
+<section class="panel">
+  <h2>Последние batch</h2>
+  {% include "_jobs_table.html" %}
+</section>
+{% endblock %}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Bank News Risk Monitoring{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/styles.css?v=20260627-results-table">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/">
+        <img class="brand-logo" src="/static/img/bank-risk-shield-logo.png?v=20260627-3" alt="">
+        <span>Bank News Risk Monitoring</span>
+      </a>
+      <nav>
+        <a class="{{ 'active' if request.url.path == '/dashboard' else '' }}" href="/dashboard">Личный кабинет</a>
+        <a class="{{ 'active' if request.url.path == '/billing' else '' }}" href="/billing">Баланс</a>
+        <a class="{{ 'active' if request.url.path == '/upload' else '' }}" href="/upload">Загрузка новостей</a>
+        <a class="{{ 'active' if request.url.path.startswith('/jobs') else '' }}" href="/jobs">Мои загрузки</a>
+      </nav>
+      <div class="auth">
+        {% if current_user %}
+          <span>{{ current_user.email }}</span>
+          <a class="link-button" href="/logout">Выйти</a>
+        {% else %}
+          <a class="button light" href="/login">Войти</a>
+          <a class="button primary" href="/register">Зарегистрироваться</a>
+        {% endif %}
+      </div>
+    </header>
+    <main class="container {% block main_class %}{% endblock %}">
+      {% block content %}{% endblock %}
+    </main>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Баланс и подписка{% endblock %}
+{% block content %}
+<h1>Баланс и подписка</h1>
+{% if error == "balance" %}<p class="error">Недостаточно средств для покупки подписки.</p>{% endif %}
+<section class="metrics">
+  <div class="metric"><span>Текущий баланс</span><strong>{{ "%.2f"|format(current_user.balance) }}</strong></div>
+  <div class="metric"><span>Стоимость подписки</span><strong>{{ "%.2f"|format(subscription_price) }}</strong></div>
+  <div class="metric"><span>Статус подписки</span><strong>{{ "активна" if subscription else "нет" }}</strong></div>
+  <div class="metric"><span>Дата окончания</span><strong>{{ subscription.ends_at.date() if subscription else "-" }}</strong></div>
+</section>
+<div class="actions">
+  <form method="post" action="/web/billing/top-up"><button class="button light">Пополнить демо-баланс</button></form>
+  <form method="post" action="/web/subscriptions/buy"><button class="button primary">Купить подписку на 30 дней</button></form>
+</div>
+{% endblock %}
