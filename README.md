@@ -390,17 +390,3 @@ select id, batch_id, risk_score, alert_flag, model_name from prediction_results 
 * Если основной `.joblib`-артефакт отсутствует, используется резервная keyword-based модель.
 * Нейросетевые эксперименты с `rubert-tiny2` и `Qwen2.5-0.5B + LoRA` сохранены как исследовательская часть и не используются в production inference.
 
-## Соответствие критериям ДЗ №8
-
-| Критерий | Реализация |
-|---|---|
-| Доменная модель сервиса | SQLAlchemy-модели: User, Subscription, NewsBatch, NewsItem, PredictionResult, BalanceTransaction |
-| Хранение данных в СУБД | PostgreSQL через SQLAlchemy |
-| REST интерфейс | FastAPI endpoints |
-| Пользовательский интерфейс | Полноценный web-интерфейс на FastAPI/Jinja2 templates + CSS, без Streamlit |
-| Web/API разделение | Web routes возвращают HTML/redirect, REST `/auth/*` и другие API endpoints возвращают JSON |
-| Web error handling | Ошибки логина, регистрации и загрузки CSV показываются в HTML на русском языке, без raw JSON |
-| Тесты критических частей | pytest-тесты в app/tests |
-| Docker контейнер | app/Dockerfile + ml_worker/Dockerfile + docker-compose.yaml |
-| Hot reload | uvicorn `--reload`, worker через `watchfiles`, bind mounts к `app`, `ml_worker`, `models`, `storage` |
-| Масштабирование воркеров | docker compose up --scale ml_worker=3 |
